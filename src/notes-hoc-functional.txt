@@ -1,0 +1,8 @@
+Yes, you can absolutely use Higher-Order Components (HOCs) with 
+functional components in React. 
+The concept of HOCs is not tied to class components; 
+it can be applied to functional components as well. 
+
+
+HOCs are simply functions that take a component and return a new 
+component with enhanced functionality.

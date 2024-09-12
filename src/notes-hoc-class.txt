@@ -1,0 +1,12 @@
+What is a Higher-Order Component?
+A Higher-Order Component is essentially a function that enhances a given 
+component by wrapping it with additional logic. This can be useful 
+for scenarios like adding authentication, fetching data, or handling 
+common behaviors across multiple components.
+
+How HOCs Work
+Function as an Argument: An HOC is a function that takes a component as an 
+argument. Enhance the Component: Inside the HOC function, you can wrap the 
+original component with additional logic or modify its props.
+Return a New Component: The HOC returns a new component that renders 
+the original component with the added functionality.
